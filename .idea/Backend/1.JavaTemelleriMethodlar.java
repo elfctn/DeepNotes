@@ -1,5 +1,6 @@
 ☕ 1. Java Temelleri ve Metotlar
 Java'daki her şeyin başlangıcı. Değişkenler, döngüler, koşul ifadeleri ve tabii ki metotlar.
+Temel Söz Dizimi (Syntax):
 
 // Java 17 ile gelen bazı yenilikler: Record, Text Blocks, Switch Expressions
 
