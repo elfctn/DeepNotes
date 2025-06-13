@@ -1,5 +1,7 @@
 ☕ 1. Java Temelleri ve Metotlar
 Java'daki her şeyin başlangıcı. Değişkenler, döngüler, koşul ifadeleri ve tabii ki metotlar.
+
+--------------------------------------
 Temel Söz Dizimi (Syntax):
 
 // Java 17 ile gelen bazı yenilikler: Record, Text Blocks, Switch Expressions
@@ -35,3 +37,23 @@ String json = """
     "age": 30
 }
 """;
+--------------------------------------
+Metotlar:
+Belirli bir işi yapan kod bloklarıdır.
+public class Hesaplayici {
+
+    /**
+     * İki sayıyı toplayan metot.
+     * @param a Toplanacak ilk sayı
+     * @param b Toplanacak ikinci sayı
+     * @return İki sayının toplamı
+     */
+    public int topla(int a, int b) {
+        return a + b;
+    }
+
+    // Overloading (Aşırı Yükleme): Aynı isim, farklı parametreler
+    public double topla(double a, double b) {
+        return a + b;
+    }
+}
