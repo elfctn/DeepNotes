@@ -1,0 +1,134 @@
+Full Stack Web Developer Programı
+---------------------------------------------------------------------------
+Module 1: HTML, CSS ve JavaScript’in Temelleri
+
+Sprint 1
+1. Yazılımın Yapıtaşları ve Javascript'e Giriş
+2. Fonksiyonlar
+3. Arrayler ve Metodlar
+4. Döngüler
+
+Sprint 2
+1. Objects
+2. İleri Düzey Fonksiyonlar ve Modern Javascript
+3. İleri Düzey Array İşlemleri
+4. Github, VS Code ve Node Kurulumları
+
+Sprint 3
+1. HTML ve CSS'e Giriş
+2. CSS
+3. CSS Display ve Layout
+4. Responsive Layouts
+
+Sprint 4
+1. Tekrar
+2. Tekrar
+3. Tekrar
+4. Tekrar
+---------------------------------------------------------------------------
+Module 2: React ile Web Uygulamaları Geliştirme ve Test Etme
+
+Sprint 5
+1. DOM Kavramı
+2. DOM Eventleri
+3. Component Kavramı
+4. Axios ve API'ler ile çalışmak
+
+Sprint 6
+1. React nedir, hangi problemi çözer? ve useState
+2. Componentler, Veri Akışı ve Paylaşımı ve Prop kavramı
+3. Component Lifecycle Kavramı ve useEffect
+4. CSS-in-JS ve React Component Kütüphaneleri (style components, reactstrap)
+
+Sprint 7
+1. Routing Kavramı ve Uygulamaları
+2. Formlarla Çalışmak I
+3. Formlarla Çalışmak II
+4. Kod Testlerine Giriş (cypress.io)
+
+Sprint 8
+1. Tekrar
+2. Tekrar
+3. Tekrar
+4. Tekrar
+---------------------------------------------------------------------------
+Module 3: React ile Advanced Uygulamalar Geliştirme
+
+Sprint 9
+1. React Hook Form ve React Toastify Kütüphaneleri
+2. TailwindCSS ve Date-Fns Kütüphaneleri
+3. Custom Hooks ve LocalStorage
+4. React Testing Library ile çalışmak
+
+Sprint 10
+1. Immutability (Değişmezlik) ve Reducer Kavramları
+2. Redux: State Yönetim Kütüphanesi
+3. Middleware Kavramı ve Redux Middleware'ları (Thunk)
+4. TanStack Query ile State Yönetimi
+
+Sprint 11
+1. Context API ile Çalışmak
+2. Kimlik Doğrulama ve Kullanıcı İşlemleri
+3. Axios ve Custom Hooklar ile HTTP Request İşlemleri
+4. İnternet Çalışma Prensipleri ve Web Sayfalarını Yayınlamak
+
+Sprint 12
+1. Tekrar
+2. Tekrar
+3. Tekrar
+4. Tekrar
+---------------------------------------------------------------------------
+Module 4: Java ve OOP
+
+Sprint 13
+1. Backend Programlamaya Giriş
+2. Java Metodları
+3. OOP'ye Giriş
+4. Java OOP Encapsulation
+
+Sprint 14
+1. Java OOP Inheritance
+2. Java OOP Composition
+3. Java OOP Polymorphism
+4. Java OOP Abstraction
+
+Sprint 15
+1. Collection Framework Giriş
+2. Set Veri Yapısı
+3. Java Map Veri Yapısı
+4. Solid Prensipler
+
+Sprint 16
+1. Tekrar
+2. Tekrar
+3. Tekrar
+4. Tekrar
+---------------------------------------------------------------------------
+Module 5: Sprint Boot ve SQL
+
+Sprint 17
+1. Spring Boot Introduction
+2. Spring Dependency Injection
+3. Spring Error Handling
+4. SQL - DQL
+
+Sprint 18
+1. SQL - DML
+2. SQL - DDL
+3. SQL - İlişki Tanımlama ve Spring JPA
+4. Hibernate ORM
+
+Sprint 19
+
+1. Spring JpaRepository & Service
+2. Hibernate Advance Mappings
+3. Spring Security
+4. Spring Unit Testing
+
+Sprint 20
+1. Tekrar
+2. Tekrar
+3. Tekrar
+4. Tekrar
+---------------------------------------------------------------------------
+Module 6: E-commerce - Mülakatlar
