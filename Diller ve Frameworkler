@@ -1,0 +1,98 @@
+# Web Geliştirme Dilleri ve Frameworkleri
+
+Bu notlar, web sitelerinin ve uygulamalarının hem görünen yüzünü (**front-end**) hem de arka plan süreçlerini (**back-end**) oluşturan temel dilleri ve bu süreçleri hızlandıran, düzenleyen **framework**'leri açıklamaktadır.
+
+---
+
+## Front-End Yazılım Dilleri (Temel Taşlar)
+
+Bunlar, web sitelerinin ve uygulamalarının görünen kısmını (kullanıcının etkileşimde bulunduğu arayüzü) oluşturmak için kullanılan temel dillerdir.
+
+* **HTML (HyperText Markup Language)**: Web sayfasının **iskeletini** oluşturur. Metinleri, resimleri, bağlantıları ve diğer içerikleri yapılandırır. Bir evin tuğlaları gibidir.
+* **CSS (Cascading Style Sheets)**: Web sayfasının **görünümünü (stilini)** tanımlar. Renkler, yazı tipleri, düzen, animasyonlar gibi görsel özellikleri belirler. Evin boyası ve dekorasyonu gibidir.
+* **JavaScript (JS)**: Web sayfasına **interaktiflik ve dinamik davranış** katar. Butonlara tıklama, form gönderme, animasyonlar, veri çekme gibi etkileşimli özellikleri sağlar. Evin elektrik tesisatı ve akıllı özellikleri gibidir.
+
+---
+
+### Front-End Framework'leri (Hazır Araç Kutuları)
+
+Framework'ler, front-end geliştirmeyi daha hızlı, kolay ve düzenli hale getirmek için oluşturulmuş hazır kod yapıları ve araç setleridir. Tekerleği yeniden icat etmek yerine, bu hazır yapıları kullanarak daha karmaşık ve ölçeklenebilir uygulamalar geliştirebilirsiniz.
+
+En popüler front-end framework'lerinden bazıları şunlardır:
+
+* **React**: Facebook tarafından geliştirilen, **bileşen tabanlı** bir JavaScript kütüphanesidir. Büyük ve karmaşık kullanıcı arayüzleri (UI) oluşturmak için çok popülerdir. **Sanal DOM (Virtual DOM)** kullanarak performansı artırır. Öğrenmesi biraz zaman alabilir ama güçlü ve esnektir.
+* **Angular**: Google tarafından geliştirilen, **kapsamlı** bir framework'tür. Büyük ölçekli, karmaşık ve kurumsal web uygulamaları geliştirmek için tasarlanmıştır. **TypeScript** üzerine kuruludur ve belirli bir yapıya (MVC benzeri) sahiptir. Öğrenme eğrisi React'e göre biraz daha dik olabilir.
+* **Vue.js**: Öğrenmesi **kolay ve esnek** bir JavaScript framework'üdür. Hem küçük projeler hem de büyük uygulamalar için uygundur. Basit sözdizimi ve aşamalı yapısıyla dikkat çeker.
+* **Svelte**: Diğer framework'lerden farklı olarak, kodu tarayıcıda değil, **build aşamasında derler**. Bu, daha küçük boyutlu ve daha hızlı uygulamalar ortaya çıkarır. "Daha az kod, daha çok iş" prensibini benimser.
+* **Next.js**: **React üzerine inşa edilmiş** bir framework'tür. Özellikle **sunucu tarafında render (SSR)** ve **statik site üretimi (SSG)** gibi özellikleriyle öne çıkar. Bu, web sitelerinin ilk yükleme hızını artırır ve SEO (arama motoru optimizasyonu) için faydalıdır. Büyük ve karmaşık uygulamalar için sıklıkla tercih edilir.
+
+---
+
+### Özet: Front-End
+
+Front-end dilleri (**HTML, CSS, JavaScript**) web sayfasının temelini oluşturur. Framework'ler ise bu dilleri kullanarak daha modern, etkileşimli ve yönetilebilir web uygulamaları geliştirmek için kullanılan hazır araç setleridir. Tıpkı bir inşaat setindeki farklı parçalar gibi, framework'ler de geliştiricilere işlerini kolaylaştıracak önceden yazılmış kodlar ve yapılar sunar. Hangi framework'ün seçileceği ise projenin büyüklüğüne, karmaşıklığına ve geliştirme ekibinin tercihine göre değişir.
+
+---
+
+## Back-End Yazılım Dilleri (Temel Taşlar)
+
+Bu diller, sunucu tarafında çalışır ve web uygulamasının **iş mantığını, veri tabanı etkileşimini, kullanıcı yetkilendirmesini** ve diğer arka plan işlemlerini yönetir.
+
+* **Python**: Öğrenmesi kolay, güçlü ve çok yönlü bir dildir. Web geliştirmede (**Django, Flask**), veri biliminde, yapay zekada da kullanılır. Okunabilir sözdizimi ve geniş kütüphane desteği sayesinde popülerdir.
+* **Java**: Büyük ve karmaşık **kurumsal uygulamalar**, Android uygulamaları ve yüksek performans gerektiren sistemler için yaygındır. Güçlü ve **nesne yönelimli** bir dildir.
+* **Node.js (JavaScript)**: JavaScript'i **sunucu tarafında** çalıştırmayı sağlar. Özellikle **gerçek zamanlı uygulamalar** ve hızlı API (uygulamaların birbirleriyle konuşmasını sağlayan köprüler) geliştirmek için popülerdir. Ön yüz ve arka yüzü aynı dilde yazma avantajı sunar.
+* **C#**: Microsoft ekosisteminde web (**ASP.NET**), masaüstü ve oyun geliştirme için kullanılır. Güçlü performansa ve geniş bir kütüphane desteğine sahiptir.
+* **PHP**: Özellikle web geliştirme için tasarlanmıştır. Birçok popüler içerik yönetim sistemi (CMS) (örneğin **WordPress**) PHP ile yazılmıştır. Büyük bir geliştirici topluluğuna sahiptir.
+* **Ruby**: Öğrenmesi keyifli ve hızlı geliştirme imkanı sunan dinamik bir dildir. Özellikle "**Ruby on Rails**" framework'ü ile bilinir.
+* **Go (Golang)**: Google tarafından geliştirilen, **yüksek performanslı, eş zamanlı ve ölçeklenebilir** uygulamalar geliştirmek için tasarlanmıştır. Özellikle bulut tabanlı uygulamalar ve ağ programlama için popülerdir.
+
+---
+
+### Back-End Framework'leri (Hazır Araç Kutuları)
+
+Tıpkı front-end'de olduğu gibi, back-end geliştirmeyi de kolaylaştırmak, hızlandırmak ve daha düzenli hale getirmek için framework'ler kullanılır. Bu framework'ler, veritabanı işlemleri, yönlendirme (URL yönetimi), güvenlik, API oluşturma gibi birçok yaygın görevi kolaylaştıran hazır araçlar ve yapılar sunar.
+
+İşte en popüler back-end framework'lerinden bazıları (kullanıldıkları dillere göre gruplandırılmıştır):
+
+#### Python Framework'leri
+
+* **Django**: "**Piller dahil**" (batteries-included) olarak bilinen, **kapsamlı** bir framework'tür. Büyük ve karmaşık web uygulamaları geliştirmek için birçok hazır özellik sunar (örneğin, **ORM** - veritabanı işlemleri için kolaylık, admin paneli).
+* **Flask**: Daha "**minimalist**" bir framework'tür. Geliştiricilere daha fazla esneklik sunar ve küçük ila orta ölçekli uygulamalar ve API'ler için idealdir. İhtiyaç duyulan özellikler eklentilerle genişletilebilir.
+* **FastAPI**: Modern, **yüksek performanslı API**'ler geliştirmek için tasarlanmıştır. **Asenkron programlamayı** ve otomatik API dokümantasyonunu (Swagger/OpenAPI) destekler.
+
+#### Java Framework'leri
+
+* **Spring Framework**: Büyük ve karmaşık **kurumsal Java uygulamaları** geliştirmek için çok popüler ve kapsamlı bir framework'tür. Bağımlılık Enjeksiyonu (Dependency Injection) ve Aspect-Oriented Programming gibi güçlü özelliklere sahiptir.
+* **Spring Boot**: Spring Framework'ün üzerine inşa edilmiş, "**ayağa kalkması**" (bootstrapping) daha kolay ve hızlı uygulamalar geliştirmeyi sağlayan bir alt projedir.
+* **Jakarta EE (eski adıyla Java EE)**: Kurumsal düzeyde web uygulamaları geliştirmek için bir dizi spesifikasyon ve API sunar (örneğin, JPA - veritabanı işlemleri için, Servlets - web isteklerini işlemek için). Farklı uygulama sunucuları (örneğin, GlassFish, WildFly) bu spesifikasyonları uygular.
+
+#### Node.js Framework'leri
+
+* **Express.js**: **Minimalist ve esnek** bir web uygulama framework'üdür. Basit yönlendirme ve ara katman (middleware) yapısıyla API ve web uygulamaları geliştirmek için yaygın olarak kullanılır.
+* **NestJS**: **TypeScript** ile geliştirilmiş, mimarisi (Angular'a benzer) daha düzenli ve ölçeklenebilir uygulamalar oluşturmayı hedefleyen bir framework'tür. Nesne yönelimli ve fonksiyonel programlama paradigmalarını destekler.
+* **Koa.js**: Express'in yaratıcıları tarafından geliştirilen, daha modern ve hafif bir framework'tür. **Asenkron akış kontrolü için async/await** özelliklerini kullanır.
+
+#### C# Framework'ü
+
+* **ASP.NET Core**: Microsoft tarafından geliştirilen, **platformlar arası** (Windows, macOS, Linux) web uygulamaları geliştirmek için kullanılan güçlü bir framework'tür. **MVC (Model-View-Controller)** mimarisini destekler ve yüksek performans sunar.
+
+#### PHP Framework'leri
+
+* **Laravel**: Modern PHP uygulamaları geliştirmek için **popüler ve kullanımı kolay** bir framework'tür. Güçlü özellikleri (örneğin, Eloquent ORM, Blade şablon motoru) ve geliştirici dostu yapısıyla bilinir.
+* **Symfony**: Büyük ve karmaşık PHP uygulamaları geliştirmek için esnek ve güçlü bir framework'tür. Birçok PHP projesinin temelini oluşturur.
+* **CodeIgniter**: Laravel ve Symfony'e göre **daha hafif ve öğrenmesi daha kolay** bir framework'tür. Hızlı geliştirme için uygundur.
+
+#### Ruby Framework'ü
+
+* **Ruby on Rails**: Hızlı ve kolay web uygulaması geliştirmeyi hedefleyen, "**convention over configuration**" (yapılandırma yerine kural) prensibini benimsemiş popüler bir framework'tür.
+
+#### Go Framework'leri
+
+* **Gin**: **Yüksek performanslı API**'ler oluşturmak için tasarlanmış hafif bir framework'tür.
+* **Echo**: Hızlı ve ölçeklenebilir web uygulamaları ve API'ler geliştirmek için başka bir popüler Go framework'üdür.
+
+---
+
+### Özet: Back-End
+
+Back-end dilleri, web uygulamasının **beynini ve sinir sistemini** oluşturur. Framework'ler ise bu dilleri kullanarak daha karmaşık ve düzenli uygulamalar inşa etmek için kullanılan hazır araç kutuları ve yapı iskelesidir. Tıpkı bir evin içindeki elektrik kabloları, su boruları ve mutfak aletleri gibi, framework'ler de geliştiricilere yaygın görevleri daha kolay ve verimli bir şekilde yerine getirme imkanı sunar. Hangi dilin ve framework'ün seçileceği, projenin gereksinimlerine, ekibin deneyimine ve performans ihtiyaçlarına bağlıdır.
